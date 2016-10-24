@@ -1,0 +1,31 @@
+body {
+    background-color: #2B446C;
+}
+
+.navbar-collapse {
+}
+
+.section {
+    min-height: 300px;
+}
+
+.banner { 
+}
+
+.features {
+    background-color: white;
+}
+
+
+.section3 {
+    background-color: blueviolet;  
+}
+
+.section4 {
+    background-color: coral;
+}
+
+footer {
+    min-height: 100px;
+    text-align: center;
+}
