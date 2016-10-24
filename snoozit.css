@@ -12,12 +12,22 @@ Backdrop :
 
 
 @font-face {
-font-family: GraublauWeb;
-src: url("font/GraublauWeb.otf") format("opentype");
+    font-family: Walsheim;
+    src: url("font/GT-Walsheim-Medium.otf") format("opentype");
 }
 
 @font-face {
-font-family: GraublauWeb;
-font-weight: bold;
-src: url("path-to-the-font-file/GraublauWebBold.otf") format("opentype");
+    font-family: Walsheim;
+    font-weight: 700;
+    src: url("font/GT-Walsheim-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Walsheim;
+    font-weight: 300;
+    src: url("font/GT-Walsheim.otf") format("opentype");
+}
+
+body{
+    font-family: Walsheim;
 }
