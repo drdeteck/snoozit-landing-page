@@ -15,9 +15,48 @@ body {
     color: white;
 }
 
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: inherit;
+}
+
+.nav>li:hover {
+    border-bottom: 1px white solid;
+}
+
 .banner { 
     min-height: 677px;
 }
+
+.logo {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-moon {
+    z-index: 20;
+}
+
+.logo-cord {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    top: 230px;
+    -webkit-transition: top 0.2s ease;
+    -moz-transition: top 0.2s ease;
+    transition: top 0.2s ease;
+}
+
+.logo-cord:hover {
+    top: 250px;
+}
+
+.logo-cord:active {
+    top: 270px;
+}
+
 
 .banner-title {
     margin-top: 150px;
