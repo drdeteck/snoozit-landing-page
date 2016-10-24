@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 579.65002 119.37"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="snoozit-cloud1.svg"
+   width="579.65002"
+   height="119.37">
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>snoozit-cloud1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview15"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.49146758"
+     inkscape:cx="291.43"
+     inkscape:cy="62.065001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs3">
+    <style
+       id="style5">.cls-1{fill:#253c5e;}</style>
+  </defs>
+  <title
+     id="title7">snoozit-cloud1</title>
+  <rect
+     class="cls-1"
+     x="0"
+     y="0"
+     width="579.65002"
+     height="21.08"
+     rx="10.54"
+     ry="10.54"
+     id="rect9"
+     style="fill:#253c5e" />
+  <rect
+     class="cls-1"
+     x="98.370003"
+     y="49.149998"
+     width="296.20999"
+     height="21.08"
+     rx="10.54"
+     ry="10.54"
+     id="rect11"
+     style="fill:#253c5e" />
+  <rect
+     class="cls-1"
+     x="281.04999"
+     y="98.290001"
+     width="296.20999"
+     height="21.08"
+     rx="10.54"
+     ry="10.54"
+     id="rect13"
+     style="fill:#253c5e" />
+</svg>

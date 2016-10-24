@@ -1,6 +1,11 @@
 body {
     background-color: #2D4978;
     color: white;
+        overflow-x: hidden; /* for animation */
+}
+
+.header {
+    background-color: #2B446C;
 }
 
 .navbar-collapse {
@@ -26,6 +31,8 @@ body {
 
 .banner { 
     min-height: 677px;
+    background-image: url('svg/snoozit-banner-backdrop.svg');
+    background-size: cover;
 }
 
 .logo {
@@ -60,6 +67,8 @@ body {
 
 .banner-title {
     margin-top: 150px;
+    z-index: 10;
+    position: relative;
 }
 
 h1 {
@@ -69,11 +78,19 @@ font-weight: 700;
 }
 
 h2 {
-font-size: 60px;
+font-size: 40px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   color: #ffffff;
+}
+
+.cta-apply {
+    margin-top: 59px;
+      font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 .features {
@@ -92,9 +109,54 @@ font-size: 60px;
 
 .features h3 {
     text-align: center;
-}
+}   
 
 footer {
     min-height: 100px;
     text-align: center;
+}
+
+/* ANIMATION */
+
+@keyframes slide1 {
+    from{
+        left: -150px;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes slide2 {
+    from{
+        left: 100%;
+    }
+    to{
+        left: -150px;
+    }
+}
+
+.animate-slide {
+    position: absolute;
+    left:0;
+    z-index: 5;
+}
+
+.cloud1 {
+    top: 136px;
+    margin-left: 98px; 
+    animation: slide1 40s linear infinite;
+}
+
+
+.cloud2 {
+    top: 232px;
+    margin-left: -150px; 
+    animation: slide2 32s linear infinite;
+}
+
+.cloud3 {
+    top: 311px;
+    margin-left: 348px;
+    animation: slide2 50s linear infinite;
 }
