@@ -36,6 +36,13 @@ body {
     background-size: cover;
 }
 
+.stars {
+    background-image: url('svg/snoozit-stars-group.svg');    
+    background-repeat: no-repeat;
+    background-size: 447px;
+    background-position-y: 79px;    
+}
+
 .logo {
     margin-top: 128px;
     display: flex;
@@ -105,6 +112,10 @@ font-size: 40px;
     font-size: 26px;
 }
 
+.cta-form {
+    display: flex;
+}
+
 .cta-email {
     border: 0;
     outline: 0;
@@ -114,7 +125,7 @@ font-size: 40px;
     font-size: 18px;
     font-weight: 300;
     color: white;
-    height: 45px;
+    height: 41px;
 }
 
 input::-webkit-input-placeholder {
@@ -157,7 +168,7 @@ input::-moz-placeholder {
     margin-left: 10px;
     background-image: url('svg/snoozit-icon-arrow.svg');
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: 21px;
     background-position: center;
 }
 
