@@ -10,6 +10,11 @@ Backdrop :
 
 */
 
+@font-face {
+    font-family: Walsheim;
+    font-weight: 300;
+    src: url("font/GT-Walsheim.otf") format("opentype");
+}
 
 @font-face {
     font-family: Walsheim;
@@ -22,11 +27,6 @@ Backdrop :
     src: url("font/GT-Walsheim-Bold.otf") format("opentype");
 }
 
-@font-face {
-    font-family: Walsheim;
-    font-weight: 300;
-    src: url("font/GT-Walsheim.otf") format("opentype");
-}
 
 body{
     font-family: Walsheim;
@@ -40,17 +40,4 @@ body{
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-}
-
-.cta {
-  padding: 16px 45px;
-  display: inline-block;
-  border-radius: 3px;
-  background-color: #ffffff;
-  color: #01A9BD;
-    font-size: 20px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  text-align: center;
 }
