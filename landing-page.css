@@ -21,6 +21,10 @@ body {
     font-weight: 300;
 }
 
+.nav>li {
+    border-bottom: 1px transparent solid;
+}
+
 .nav>li>a:focus,
 .nav>li>a:hover {
     background-color: inherit;
@@ -29,6 +33,7 @@ body {
 .nav>li:hover {
     border-bottom: 1px white solid;
 }
+
 
 .banner { 
     min-height: 677px;
