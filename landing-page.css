@@ -288,7 +288,9 @@ input::-moz-placeholder {
         width: 100px;
     }
 
-    .logo-cord {
+    .logo-cord,
+    .logo-cord:active,
+    .logo-cord:hover {
         width: 10px;
         top: 64px;
     }
