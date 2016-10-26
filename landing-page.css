@@ -272,3 +272,91 @@ input::-moz-placeholder {
     margin-left: 348px;
     animation: slide1 100s linear infinite;
 }
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    .header {
+        display: none;
+    }
+
+    .logo {
+        margin-top: 35px;
+    }
+
+    .logo-moon {
+        width: 100px;
+    }
+
+    .logo-cord {
+        width: 10px;
+        top: 64px;
+    }
+
+    .banner-title {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner-title h2 {
+        line-height: 54px;
+    }
+
+    .logo-title {
+        width: 300px;
+    }
+
+    .stars {
+            background-size: 204px;
+        background-position-x: 94px;
+        background-position-y: 29px;
+    }
+
+    .cta-form {
+        display: inline-flex;
+    }
+
+    .cta-email {
+        width: 200px;
+    }
+
+    .features {
+        padding-bottom: 60px;
+    }
+
+    .features .container {
+        padding: 0 20px;
+    }
+
+    .features h2 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 34px;
+    }
+
+    .feature {
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .footer h2 {
+        margin-bottom: 40px;
+    } 
+
+    .contact-us {
+        margin-bottom: 20px;
+    }
+
+    .footer-notes {
+        text-align: center;
+    }
+
+    .copyright {
+        float: none!important;
+        display: inline-block;
+        margin-top: 40px;
+    }
+}
