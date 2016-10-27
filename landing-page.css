@@ -391,7 +391,7 @@ body.night .night {
 }
 
 body.night .banner-title {
-    opacity: 0.2;
+    opacity: 0;
 }
 
 body.night .features {
