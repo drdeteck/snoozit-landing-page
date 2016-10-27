@@ -185,6 +185,10 @@ input::-moz-placeholder {
     line-height: 41px;
 }
 
+.night-message {
+    display: none;
+}
+
 /* FEATURES */
 
 .features {
@@ -366,4 +370,50 @@ input::-moz-placeholder {
         display: inline-block;
         margin-top: 40px;
     }
+}
+
+
+body .night {
+    display: none;
+}
+
+body.night .day{
+    display: none;
+}
+
+body.night .night {
+    display: initial;
+}
+
+.logo-moon.night {
+    margin-top: -92px;
+    margin-left: -27px; 
+}
+
+body.night .banner-title {
+    opacity: 0.2;
+}
+
+body.night .features {
+    background-color: #2B446C;
+}
+
+body.night .navbar-collapse a {
+    color: #F7D50A; 
+}
+
+body.night .banner {
+    background-color: #2B446C;
+    background-image: url('svg/snoozit-stars-group.svg');
+    background-size: 738px;
+}
+
+body.night .night-message {
+  font-family: 'Luckiest Guy', cursive;
+    position: absolute;
+    top: 166px;
+    font-size: 64px;
+    color: #F7D50A;
+    z-index: 100;
+    display: block;
 }

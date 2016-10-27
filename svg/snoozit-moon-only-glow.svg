@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="326.58548mm"
+   height="357.47739mm"
+   viewBox="0 0 1157.1926 1266.6522"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="snoozit-moon-only-glow.svg">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath3354"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3356"
+         d="m 0,1024 1024,0 L 1024,0 0,0 0,1024 Z" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4160"
+       x="-0.33000001"
+       width="1.5599999"
+       height="1.6"
+       y="-0.31">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4162" />
+      <feComposite
+         in="SourceGraphic"
+         in2="flood"
+         operator="in"
+         result="composite1"
+         id="feComposite4164" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="78.1"
+         result="blur"
+         id="feGaussianBlur4166" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="offset"
+         id="feOffset4168" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite4170" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix4172" />
+      <feFlood
+         id="feFlood4174"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite4176"
+         in2="flood"
+         in="fbSourceGraphic"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4178"
+         in="composite1"
+         stdDeviation="78.1"
+         result="blur" />
+      <feOffset
+         id="feOffset4180"
+         dx="0"
+         dy="0"
+         result="offset" />
+      <feComposite
+         id="feComposite4182"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="911.39418"
+     inkscape:cy="1121.6466"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1843"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(2143.6438,1147.8377)">
+    <path
+       d="m -1174.8718,-308.17758 c -25.7037,5.8175 -52.4737,8.7025 -79.9962,8.29125 -183.2913,-2.5675 -330.9875,-151.41126 -328.6075,-331.13501 1.3162,-98.86875 47.2825,-186.87751 118.7737,-245.88251 9.9525,-8.245 4.5338,-24.2425 -8.4562,-24.9225 -7.2838,-0.41 -14.6288,-0.5975 -22.0088,-0.5975 -222.955,0 -403.6862,177.20126 -403.6862,395.82752 0,218.48625 181.8925,396.38001 404.715,395.82876 139.4675,-0.31625 262.3075,-70.0525 334.5887,-175.78376 7.2838,-10.6725 -2.5237,-24.51125 -15.3225,-21.62625"
+       style="fill:#f7d50a;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4160)"
+       id="path3393"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
