@@ -377,6 +377,10 @@ body .night {
     display: none;
 }
 
+body.night {
+    cursor: pointer;
+} 
+
 body.night .day{
     display: none;
 }
