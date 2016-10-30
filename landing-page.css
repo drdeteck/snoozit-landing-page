@@ -187,6 +187,7 @@ input::-moz-placeholder {
 
 .night-message {
     display: none;
+    background-color: #2B446C; 
 }
 
 /* FEATURES */
