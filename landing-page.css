@@ -2,6 +2,7 @@ body {
     background-color: #2D4978;
     color: white;
     overflow-x: hidden; /* for animation */
+    quotes: "«" "»";
 }
 
 .header {
@@ -219,10 +220,197 @@ input::-moz-placeholder {
     font-size: 30px;
 }   
 
+/* SCREENSHOTS */
+.screenshots {
+    background-color: #01A9BD;
+    background: linear-gradient(to bottom, #01a9bd 0%,#00555e 100%);
+    color: white;
+    padding-top: 121px;
+    padding-bottom: 40px;
+}
+
+.screenshots .row {
+    margin-bottom: 116px;
+}
+
+.screenshots h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.screenshots h3 {
+    color: #F7D50A;
+    font-size: 30px;
+}
+
+.screenshots p {
+    font-size: 18px;
+    font-weight: 300;
+    width: 300px;
+}
+
+.screenshot1,
+.screenshot3 {
+    text-align: right;
+    margin: 0;
+} 
+.screenshot1 p,
+.screenshot3 p {
+    display: inline-block;
+}
+
+/* COVERED */
+.covered {
+    background-color: white;
+    color: #01A9BD;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.covered h2 { 
+    color: #01A9BD;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.covered h3 {
+    text-align: center;
+}
+
+.covered p {
+    font-size: 24px;
+}
+
+.vm-type {
+    margin: auto;
+    border: 2px #01A9BD solid;
+    border-radius: 50%;
+    height: 164px;
+    width: 164px;
+    line-height: 164px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.2s;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: center;
+}
+
+.vm-type:hover {
+    background-color: #01A9BD;
+}
+
+.vm-classic {
+    background-image: url('svg/snoozit-icon-vmclassic.svg');
+}
+.vm-classic:hover {
+    background-image: url('svg/snoozit-icon-vmclassic-white.svg');
+}
+
+.vm-arm {
+    background-image: url('svg/snoozit-icon-vmarm.svg');
+}
+.vm-arm:hover {
+    background-image: url('svg/snoozit-icon-vmarm-white.svg');
+}
+
+.vm-cloud {
+    background-image: url('svg/snoozit-icon-vmcloud.svg');
+}
+.vm-cloud:hover {
+    background-image: url('svg/snoozit-icon-vmcloud-white.svg');
+}
+
+/* EXPERT */
+.expert {
+    background-color: #F7D50A;
+    color: #005f6a;
+    padding-top: 121px;
+    padding-bottom: 121px;
+}
+
+.expert blockquote {
+    font-size: 32px;
+    margin-bottom: 44px;
+}
+
+.expert h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.expert .title {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+}
+
+.expert img {
+    width: 158px;
+    border-radius: 50%;
+    box-shadow: 0 4px 9px 0 rgba(148, 146, 146, 0.5);
+}
+
+.expert blockquote {
+    border: none;
+    padding: 0 100px;
+}
+
+.expert blockquote::before {
+    content: open-quote;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: -50px;
+    left: 58px;
+}
+
+.expert blockquote::after {
+    content: close-quote;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    bottom: 83px;
+    right: 57px;
+}
+
+/* OUR TEAM */
+.team {
+    background:  url('img/team.jpg');
+    padding-top: 216px;
+    background-size: cover;
+    background-position-y: 100%;
+    /* hack for color over image */
+    box-shadow: inset 0 0 0 1000px rgba(0, 168, 189, 0.6);
+}
+
+.team h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+}
+
+.team .cta {
+    background-color: white;
+    color: #01A9BD;
+    border-radius: 35px;
+    width: 278px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 70px;
+    display: block;
+    margin: 93px auto;
+}
+
+/* FOOTER */
 .footer {
+    background-color: white;
     padding-top: 80px;
     padding-bottom: 20px;
     font-weight: 300;
+    color: #7f7f7f;
 }
 
 .footer h2 {
@@ -230,16 +418,22 @@ input::-moz-placeholder {
     font-weight: 500;
 }
 
-.footer a {
-    color: #F7D50A;
+.footer .nav a {
+    color: #01A9BD;
+}
+
+.footer .nav a:hover {
+    text-decoration: underline;
 }
 
 .contact {
     font-size: 20px;
 }
 
-/* ANIMATION */
 
+/**************/
+
+/* ANIMATION */
 @keyframes slide1 {
     from{
         left: -150px;
@@ -374,6 +568,7 @@ input::-moz-placeholder {
 }
 
 
+/* GOOD NIGHT */
 body .night {
     display: none;
 }
