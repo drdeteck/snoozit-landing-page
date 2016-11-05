@@ -1,10 +1,10 @@
 .aboutus {
-    background:  url('../img/TeamSnoozit.jpg');
+    background:  url('../img/team2.jpg');
     
     background-size: cover;
     background-position: center;
     /* hack for color over image */
-    box-shadow: inset 0 0 0 1000px rgba(0, 168, 189, 0.6);
+    box-shadow: inset 0 0 0 1000px rgba(0, 94, 106, 0.8);
 }
 
 h1 {
@@ -13,6 +13,43 @@ h1 {
     color: white;
     text-align: center;
 
-    margin-top: 240px;
-    margin-bottom: 240px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.members {
+    background-color: #01A9BD;
+    padding: 125px 0;
+}
+
+.members .member {
+    text-align: center;
+}
+
+.members img {
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    border: 2px white solid;
+}
+
+.members h3 {
+    text-align: center;
+}
+
+.members h4 {
+    text-align: center;
+}
+
+.second {
+    margin-top: 20px;
+}
+
+.col-md-1-5 {
+    width: 12.5%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
 }
