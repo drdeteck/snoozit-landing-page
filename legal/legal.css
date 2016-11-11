@@ -1,0 +1,23 @@
+body {
+    background: white;
+}
+
+.legal {
+
+    color: #7f7f7f;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.navbar-collapse a {
+    color: #01a9bd;
+}
+
+.legal-body {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+}
